@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(27deg, #34495e 50%, #2c3e50 50%);
+}
+
+/*Bienvenido*/
+
+.form{
+    width: 400px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 80px;
+    border: 1px solid #2980b9;
+    margin: 10px;
+}
+
+.form img{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: #2c3e50;
+}
+
+.texto{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.form input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form .pass{
+    margin-bottom: 25px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .596);
+}
+
+.form input:hover{
+    transition: .5s;
+    border: 1px solid #2980b9;
+    color: #2980b9;
+}
+
+.form button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78px;
+    background: transparent;
+    color: #b9c4c6;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+}
+
+.form button:hover{
+    color: #d5dbdd;
+    border: 2px solid #3498db;
+    background: linear-gradient(#34495e, #2c3e50);
+}
+
+/*Informacion adicional*/
+
+.form .tarjeta{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+
